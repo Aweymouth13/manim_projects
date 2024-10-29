@@ -1,4 +1,4 @@
-import numpy as np
+import os
 from manim import *
 
 class TestScene(Scene):
@@ -15,3 +15,8 @@ class TestScene(Scene):
         # Add a pause at the end
         self.wait(2)
 
+def play():
+    os.system("manim -ql main.py TestScene")
+
+if __name__ == "__main__":
+    play()
