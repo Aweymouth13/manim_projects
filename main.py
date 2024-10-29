@@ -1,3 +1,4 @@
+import numpy as np
 from manim import *
 
 class TestScene(Scene):
@@ -13,3 +14,4 @@ class TestScene(Scene):
 
         # Add a pause at the end
         self.wait(2)
+
